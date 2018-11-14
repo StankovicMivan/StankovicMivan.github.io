@@ -20,7 +20,7 @@
 
 		var defaults = {
 			el : null,
-			speed : 5000,
+			speed :5000,
 			autoPlay : false,
 			bodyID : 'fsvs-body',
 			mouseSwipeDisance : 40,

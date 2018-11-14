@@ -160,7 +160,9 @@ optgroup {
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0; 
+ 
+  }
 
 td,
 th {
@@ -263,6 +265,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: 30px;
   font-size: 2.14286rem;
+  font-family: "Dejavu Sans", sans-serif;
   line-height: 1.4; }
 
 h3, .h3 {
@@ -370,8 +373,11 @@ th {
   color: #252525; }
 
 td {
-  border: 1px solid #e2e2e2;
-  padding: 11px 0;
+
+  text-align: center;
+  border: 0;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 11px ;
   padding: 11px; }
 
 tr, td, th {
@@ -379,7 +385,7 @@ tr, td, th {
 
 fieldset {
   background: none;
-  border: 1px solid #e2e2e2;
+  border: ;
   padding: 21px;
   margin-bottom: 21px; }
   fieldset legend {
